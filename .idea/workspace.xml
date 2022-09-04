@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="update CRUD">
+    <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="update first step CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662103964892</updated>
       <workItem from="1662103969691" duration="1548000" />
-      <workItem from="1662105790339" duration="8223000" />
+      <workItem from="1662105790339" duration="9631000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1662105303837</created>
@@ -105,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662218574352</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update first step CRUD">
+      <created>1662220747193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662220747193</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update first step CRUD">
+      <created>1662220799334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662220799334</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +143,7 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="add WordCRUD" />
     <MESSAGE value="update CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="update CRUD" />
+    <MESSAGE value="update first step CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="update first step CRUD" />
   </component>
 </project>
