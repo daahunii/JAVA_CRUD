@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="update first step CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662103964892</updated>
       <workItem from="1662103969691" duration="1548000" />
-      <workItem from="1662105790339" duration="10673000" />
+      <workItem from="1662105790339" duration="14374000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1662105303837</created>
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662271528919</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update first step CRUD">
+      <created>1662377857516</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662377857516</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
