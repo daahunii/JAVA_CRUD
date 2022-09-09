@@ -90,8 +90,8 @@ public class WordCRUD implements ICRUD {
         System.out.print("=> 정말로 삭제하시겠습니까?(Y/N) : ");
         String ans = s.nextLine();
         if(ans.equalsIgnoreCase("y")){
-            list.remove(idlist.get(id-1));
-            System.out.println("단어가 삭제되었습니다.");
+            list.remove((int)idlist.get(id-1));
+            System.out.println("단어가 삭제되었습니다.\n");
         } else System.out.println("취소되었습니다.\n");
     }
 }

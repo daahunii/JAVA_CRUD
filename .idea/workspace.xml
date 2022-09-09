@@ -7,7 +7,6 @@
     <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="update CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/WordCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WordCRUD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/WordManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WordManager.class" afterDir="false" />
     </list>
@@ -72,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662103964892</updated>
       <workItem from="1662103969691" duration="1548000" />
-      <workItem from="1662105790339" duration="19225000" />
+      <workItem from="1662105790339" duration="20195000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1662105303837</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662718140748</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update CRUD">
+      <created>1662736868581</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662736868581</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
