@@ -60,6 +60,7 @@ public class WordCRUD implements ICRUD {
             if(!word.contains(keyword)) continue;
             System.out.print((j+1) + " ");
             System.out.println(list.get(i).toString());
+            idlist.add(i);
             j++;
         }
         System.out.println("---------------------------------\n");
@@ -77,6 +78,20 @@ public class WordCRUD implements ICRUD {
         String meaning = s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
-        System.out.println("단어가 수정되었습니다.");
+        System.out.println("단어가 수정되었습니다.\n");
+    }
+    public void deleteItem() {
+        System.out.print("=> 삭제할 단어 검색 : ");
+        String keyword = s.next();
+        ArrayList<Integer> idlist = this.listAll(keyword);
+        System.out.print("=> 삭제할 번호 선택 : ");
+        int id = s.nextInt();
+        s.nextLine(); // 스킵되는 현상 제거
+        System.out.print("=> 정말로 삭제하시겠습니까?(Y/N) : ");
+        String ans = s.nextLine();
+        if(ans.equalsIgnoreCase("y")){
+            list.remove(idlist.get(id-1));
+            System.out.println("단어가 삭제되었습니다.");
+        } else System.out.println("취소되었습니다.\n");
     }
 }

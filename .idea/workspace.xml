@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="update first step CRUD">
+    <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="update CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/WordCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WordCRUD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/WordManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WordManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662103964892</updated>
       <workItem from="1662103969691" duration="1548000" />
-      <workItem from="1662105790339" duration="14374000" />
+      <workItem from="1662105790339" duration="19225000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1662105303837</created>
@@ -142,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662377857516</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update CRUD">
+      <created>1662718140748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662718140748</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,8 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="add WordCRUD" />
-    <MESSAGE value="update CRUD" />
     <MESSAGE value="update first step CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="update first step CRUD" />
+    <MESSAGE value="update CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="update CRUD" />
   </component>
 </project>
