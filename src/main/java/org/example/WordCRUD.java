@@ -1,11 +1,16 @@
 package org.example;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class WordCRUD implements ICRUD {
     ArrayList<Word> list;
     Scanner s;
+    final String file = "Dictionary.txt";
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s = s;
@@ -93,5 +98,26 @@ public class WordCRUD implements ICRUD {
             list.remove((int)idlist.get(id-1));
             System.out.println("단어가 삭제되었습니다.\n");
         } else System.out.println("취소되었습니다.\n");
+    }
+
+    public void loadFile(){
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String line;
+            while(true){
+                line = br.readLine();
+                if(line == null) break;
+                String data[] = line.split("\\|");
+                int level = Integer.parseInt(data[0]);
+                String word = data[1];
+                String meaning = data[2];
+            }
+            br.close();
+        } catch (FileNotFoundException e){
+            e.printStackTrace();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }
