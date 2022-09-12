@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="update CRUD">
+    <list default="true" id="084ca544-017a-4df4-8b55-8976ad734e98" name="Changes" comment="complete loadFile function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Word.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/WordCRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WordCRUD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/WordManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WordManager.class" afterDir="false" />
     </list>
@@ -35,14 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -72,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662103964892</updated>
       <workItem from="1662103969691" duration="1548000" />
-      <workItem from="1662105790339" duration="24554000" />
+      <workItem from="1662105790339" duration="26717000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1662105303837</created>
@@ -172,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662968688570</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="complete loadFile function">
+      <created>1662970106342</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662970106342</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +207,7 @@
     <MESSAGE value="add WordCRUD" />
     <MESSAGE value="update first step CRUD" />
     <MESSAGE value="update CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="update CRUD" />
+    <MESSAGE value="complete loadFile function" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete loadFile function" />
   </component>
 </project>
